@@ -199,6 +199,7 @@ endif
 
 ifneq (,$(filter y, $(CFG_MX6UL) $(CFG_MX6ULL) $(CFG_MX6SX)))
 CFG_DRAM_BASE ?= 0x80000000
+CFG_UART_BASE = UART2_BASE
 endif
 
 ifeq ($(filter y, $(CFG_MX7)), y)
