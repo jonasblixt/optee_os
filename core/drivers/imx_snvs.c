@@ -36,7 +36,7 @@
 #include <kernel/time_source.h>
 #include <mm/core_memprot.h>
 #include <mm/core_mmu.h>
-#include <mpa.h>
+/*#include <mpa.h>*/
 #include <utee_defines.h>
 #include <platform_config.h>
 #include <stdint.h>
